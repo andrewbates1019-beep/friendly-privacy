@@ -6,126 +6,209 @@
 <title>Friendly Privacy Policy</title>
 <style>
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6;max-width:760px;margin:0 auto;padding:24px;color:#1c1c1e}
-h1{font-size:1.9rem}h2{font-size:1.2rem;margin-top:2rem}li{margin:.3rem 0}
+h1{font-size:1.9rem}h2{font-size:1.2rem;margin-top:2rem}h3{font-size:1rem;margin-top:1.4rem}li{margin:.3rem 0}
 .note{background:#fff4d6;border:1px solid #e6c25a;padding:8px 12px;border-radius:8px;font-size:.9rem}
+table{border-collapse:collapse;width:100%;margin:.8rem 0;font-size:.95rem}
+th,td{border:1px solid #d1d1d6;padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#f2f2f7}
+.wrap{overflow-x:auto}
 </style>
 </head>
 <body>
 
 <h1>Privacy Policy</h1>
-<p><strong>Effective date:</strong> November 14, 2026 &nbsp;|&nbsp; <strong>Version:</strong> 2026-11</p>
+<p><strong>Effective date:</strong> November 22, 2026 &nbsp;|&nbsp; <strong>Version:</strong> 2026-11-22</p>
 
-<p>This Privacy Policy explains what information the Friendly mobile application ("Friendly", "we", "our", or "us") collects, how it is used and protected, and the choices and rights you have. Friendly is operated by Andrew Bates, doing business as Friendly.</p>
+<p>This Privacy Policy explains what information the Friendly mobile application ("Friendly", "we", "our", or "us") collects, how it is used and protected, how long it is kept, and the choices and rights you have. Friendly is owned and run personally by Andrew Bates, doing business as Friendly. Andrew Bates is responsible for your information (the "controller" or "business" under privacy laws).</p>
 
 <h2>1. Information We Collect</h2>
 <p><strong>Information you provide or that comes from your sign-in provider</strong></p>
 <ul>
-<li><strong>Name and email address</strong>, from Apple Sign In, Google Sign-In, or email sign-in. Used for authentication, your profile, and account-related communication.</li>
-<li><strong>Username and account identifier</strong>, used to identify your account and enable search and connections.</li>
-<li><strong>Birthday.</strong> We ask for your birthday to confirm you meet our minimum age (13). It is stored in a private area of your account that only you can read. It is not shown to other users.</li>
-<li><strong>Profile information you choose to add</strong>: profile photo, bio, city, state, country, website, job title, company, and phone number.</li>
-<li><strong>Purchase information.</strong> If you subscribe to Friendly Pro, Apple processes the payment. We receive subscription status and transaction identifiers, not your payment card details.</li>
+<li><strong>Sign-in details.</strong> Your email address and the sign-in method you use (Sign in with Apple, Google Sign-In, or email and password). These are held by Firebase Authentication. If you use email sign-in, your password is handled by Firebase Authentication; we never see it.</li>
+<li><strong>Your Friendly profile:</strong> first and last name, display name, username, bio, profile photo, whether you are discoverable, and whether you send read receipts. This is stored in the cloud so the people you connect with can see it.</li>
+<li><strong>Extra profile details you choose to add</strong> on the profile screen (such as phone number, city, state, country, website, job title and company) are stored on your device only. They are not uploaded and are not shown to other users.</li>
+<li><strong>Birthday.</strong> We ask for your birthday to confirm you meet our minimum age (13). It is stored in a private area of your account that only you can read, so you are not asked again after reinstalling. It is never shown to other users. We also record the date you passed the age check.</li>
+<li><strong>Legal acceptance.</strong> The date you agreed to our Terms of Use, Community Rules and this Privacy Policy, and which version you agreed to.</li>
+<li><strong>Purchase information.</strong> If you subscribe to Friendly Pro, Apple processes the payment. We receive your subscription status, the product you bought and Apple's transaction identifiers. We do not receive your payment card details.</li>
 </ul>
 <p><strong>Information about other people that you add</strong></p>
 <ul>
-<li><strong>Contacts</strong> you add or import (names, phone numbers, email addresses, physical addresses, birthdays, notes, interactions, and reminders). See Section 4.</li>
+<li>Contacts you add or import (names, phone numbers, email addresses, physical addresses, birthdays, social handles, tags, notes, interactions and reminders). This stays on your device unless you turn on cloud backup. See Section 4.</li>
 </ul>
 <p><strong>Information created when you use Friendly</strong></p>
 <ul>
-<li><strong>Direct messages</strong> (content, sender, recipient, time, and reactions) between connected users.</li>
-<li><strong>Connections</strong>: who you follow, who follows you, and follow requests.</li>
-<li><strong>Reports and blocks</strong>: reports you submit about a user or message (including the reason and any details you write), and the list of accounts you have blocked.</li>
-<li><strong>Reminder and streak data</strong> used to power reminders, streaks, and relationship insights.</li>
-<li><strong>Device tokens</strong> used to deliver push notifications.</li>
-<li><strong>Cloud backup data</strong>, if you use the optional cloud backup feature (see Section 8).</li>
+<li><strong>Direct messages</strong> between connected users: the text, who sent it, the time, reactions, replies, whether it was edited or unsent, and whether and when it was read.</li>
+<li><strong>Connections:</strong> who you follow, who follows you, and follow requests.</li>
+<li><strong>Reports and blocks:</strong> reports you submit about a user or message (including the reason and any details you write), and the list of accounts you have blocked.</li>
+<li><strong>Streak data</strong> used to power weekly streaks and streak reminders.</li>
+<li><strong>Device tokens</strong> used to deliver push notifications, one for each device you are signed in on.</li>
+<li><strong>Cloud backup data</strong>, only if you turn on cloud backup (see Section 8).</li>
 </ul>
 <p><strong>Device permissions.</strong> Friendly asks for access to your contacts (to import people you choose), camera (to scan QR codes and take photos), photo library (to choose photos), and notifications. You can change these in your device settings at any time. Friendly works without them, with fewer features.</p>
-<p><strong>Diagnostics report.</strong> The Profile screen can generate a diagnostics report for troubleshooting. It contains your app version, device model, permission status, your account identifier, subscription status, the number of contacts, reminders, and interactions you have (not their contents), and recent app events and errors. It stays on your device and is shared with us only if you choose to send it.</p>
-<p>We do not use advertising or analytics SDKs, and we do not track you across other companies' apps or websites.</p>
+<p><strong>Diagnostics in feedback emails.</strong> When you tap "Send feedback" or "Report a bug" in the app, Friendly opens an email to us that includes a diagnostics report: your app version, device model, permission status, your account identifier, subscription status, how many contacts, reminders and interactions you have (not what they contain), and recent app events and errors. You can read or remove it before sending. Nothing is sent unless you send the email.</p>
+<p><strong>Data collected by Google's software in the app.</strong> Friendly uses Google's Firebase and Google Sign-In software to run the app. That software automatically collects some technical information to deliver, secure and measure the performance of Google's own services: device and installation identifiers, diagnostic information (for example, errors and how long requests take), and, when you sign in with Google, information about your sign-in session that may include your approximate location (for example, from your IP address). Google handles this information under its own privacy policy. We do not use it ourselves for analytics, advertising or profiling.</p>
+<p>We do not add advertising or analytics tools of our own, and we do not track you across other companies' apps or websites.</p>
 
 <h2>2. How We Use Your Information</h2>
 <ul>
 <li>To create and authenticate your account and keep it secure.</li>
-<li>To provide Friendly's features: contact management, reminders, relationship tracking, streaks, connections, and messaging.</li>
+<li>To provide Friendly's features: contact management, reminders, relationship tracking, streaks, connections and messaging.</li>
 <li>To deliver direct messages and push notifications.</li>
-<li>To verify that users meet our minimum age.</li>
-<li>To provide optional cloud backup and restore, if you use it.</li>
-<li>To process and verify Friendly Pro subscriptions.</li>
-<li>To review reports, enforce our Community Rules and Terms, remove content, and suspend accounts that break them.</li>
+<li>To check that users meet our minimum age, and to keep accounts under the minimum age from being found in search.</li>
+<li>To provide optional cloud backup and restore, if you turn it on.</li>
+<li>To process and verify Friendly Pro subscriptions, and to stop one subscription from being claimed by more than one account.</li>
+<li>To review reports, enforce our Community Rules and Terms of Use, remove content, and suspend accounts that break them.</li>
 <li>To respond to your support requests and to comply with legal obligations.</li>
 </ul>
 <p>We do not use your data for advertising or marketing profiling, and we do not sell your personal data.</p>
 
-<h2>3. Legal Bases for Processing (EEA, UK, and similar regions)</h2>
-<p>If the General Data Protection Regulation or similar law applies to you, we process your information: to perform our agreement with you (providing the app and your account); for our legitimate interests in keeping Friendly safe, preventing abuse, and enforcing our rules; to comply with legal obligations; and, where required, with your consent (for example, optional cloud backup, push notifications, and device permissions), which you can withdraw at any time.</p>
+<h2>3. Legal Bases for Processing (EEA, UK and Similar Regions)</h2>
+<p>If the General Data Protection Regulation (GDPR), the UK GDPR or a similar law applies to you, we process your information: to perform our agreement with you (providing the app and your account); for our legitimate interests in keeping Friendly safe, preventing abuse and enforcing our rules; to comply with legal obligations; and, where required, with your consent (for example, optional cloud backup, push notifications and device permissions), which you can withdraw at any time.</p>
 
 <h2>4. Contact Information You Provide About Others</h2>
-<p>Friendly is a relationship management app, so it stores information about people in your life. This information comes from you, is used only to help you manage your own relationships, and is not shared with the contacts themselves, with other Friendly users, or with third parties. Your contact data is stored on your device. It is uploaded to our servers only if you turn on cloud backup. You are responsible for having a legitimate reason to store information about the people you add.</p>
+<p>Friendly is a relationship management app, so it stores information about people in your life. This information comes from you, is used only to help you manage your own relationships, and is not shared with the contacts themselves, with other Friendly users or with third parties. Your contact data is stored on your device. It is uploaded to our servers only if you turn on cloud backup. You are responsible for having a legitimate reason to store information about the people you add.</p>
 
 <h2>5. Direct Messages</h2>
-<p>Messaging is available only between mutually connected users. Messages are stored in Google Firebase so they can be delivered and so your conversation history is available. We do not read your messages, sell them, or use them for advertising. We may review message content only when it is reported to us, or when necessary to investigate abuse, protect safety, or comply with law. Messages are not end-to-end encrypted.</p>
+<p>Messaging is available only between connected users. Messages are stored in Google Firebase so they can be delivered and so your conversation history is available on any device you sign in on. We do not read your messages, sell them or use them for advertising. We may look at message content only when it is reported to us, or when necessary to investigate abuse, protect someone's safety or comply with the law. Messages are encrypted in transit and at rest by our provider, but they are <strong>not end-to-end encrypted</strong>.</p>
+<p>You can edit or unsend a message within 2 minutes of sending it. Unsending removes its text and reactions and leaves a placeholder. If you stop following each other, you can no longer send new messages, but the conversation history stays visible to both of you.</p>
 
-<h2>6. User Content, Reports, and Blocking</h2>
-<p>Friendly allows users to create profiles, set usernames, write bios, and send messages. You are responsible for what you submit, and it must follow our Community Rules.</p>
+<h2>6. User Content, Reports and Blocking</h2>
+<p>Friendly lets users create profiles, set usernames, write bios and send messages. You are responsible for what you submit, and it must follow our Community Rules.</p>
 <ul>
-<li><strong>Reporting.</strong> You can report a user or message by emailing our support address and, in versions of the app that include reporting, directly in the app. A report records who reported, who was reported, the reason, any details and related conversation or message identifiers, and the time. It is sent to us for review, including by email to our support address. We do not tell the reported person who reported them.</li>
-<li><strong>Blocking.</strong> In versions of the app that include blocking, you can block a user. Blocking ends your connection and conversation with them and prevents them from sending you new follow requests. We do not notify the blocked person. You can unblock from your settings, but unblocking does not automatically reconnect you.</li>
-<li><strong>Enforcement.</strong> We may remove content and suspend or terminate accounts that break our rules.</li>
+<li><strong>Reporting.</strong> You can report a user or message in the app or by emailing our support address. A report records who reported, who was reported, the reason, any details you write (up to 500 characters), any related conversation or message identifiers, and the time. Only we can read reports. We are also notified by email (see Section 11). We do not tell the reported person who reported them.</li>
+<li><strong>Blocking.</strong> When you block someone, we remove the follow connection between you in both directions, they cannot send you new follow requests, and neither of you can send new messages. Your earlier conversation history is not deleted. We do not tell the blocked person. You can unblock from your settings, but unblocking does not reconnect you.</li>
+<li><strong>Enforcement.</strong> We may remove content and suspend or close accounts that break our rules.</li>
 </ul>
 
 <h2>7. Discoverability</h2>
-<p>By default, your profile is not discoverable. If you turn on discoverability in your profile settings, other users can find you by username. You can turn it off at any time.</p>
+<p>By default, your profile is not discoverable. If you turn on discoverability, other users can find you by username. You can turn it off at any time. Discoverability can only be turned on when a birthday showing you meet the minimum age is on file.</p>
+<p>Whether or not you are discoverable, people you follow, who follow you, who have a pending follow request with you, or who have a conversation with you can see your Friendly profile (name, username, bio and photo).</p>
 
 <h2>8. Data Storage and Cloud Backup</h2>
-<p>Your personal contact data is primarily stored on your device. The following is stored on Google Firebase to provide the app: authentication details; your profile information; your private birthday record; connection and follow data; direct messages; streak data; reports and blocks; subscription ownership records; and push notification tokens.</p>
-<p><strong>Cloud backup is optional.</strong> Cloud backup is a Friendly Pro feature. If you use it, your local app data (contacts and their phone numbers, email addresses, and addresses, plus notes, interactions, reminders, and settings) is uploaded to Firebase Storage so you can restore it. Only you can access your backup. Newer versions of the app let you choose whether to turn backup on or off in your Profile settings, and to delete your existing cloud backups; in those versions backup stays off until you turn it on. Deleting your account also deletes your cloud backups.</p>
+<p>Most of your data (your contacts, notes, interactions, reminders, settings and extra profile details) is stored only on your device. The following is stored in Google Firebase to run the app: your sign-in record; your Friendly profile and profile photo; your private birthday record; connection and follow data; direct messages; streak data; reports and blocks; subscription ownership records; and push notification tokens.</p>
+<p><strong>Cloud backup is optional and is a Friendly Pro feature.</strong> It stays off until you turn it on in Profile &gt; Settings. While it is on, Friendly uploads a copy of your on-device data (your contacts and their details, notes, interactions, reminders and app settings, including the name, email and phone number in your settings) to Firebase Storage, at most about once a day, so you can restore it. Only you can access your backup. When you turn backup off, you can choose to keep or delete the backups already in the cloud.</p>
+<div class="note"><strong>Older app versions.</strong> In versions of Friendly before 2.2, cloud backup turned on automatically for Friendly Pro subscribers. If you are still using one of those versions, backups continue automatically until you update. After you update, automatic backups pause and the app asks whether you want backup on or off; backup stays off unless you choose to turn it on. Backups already saved remain until you delete them or delete your account.</div>
 
-<h2>9. Data Retention and Deletion</h2>
+<h2>9. How Long We Keep Information</h2>
+<p>We keep your information while your account is active, and for the periods below.</p>
+<div class="wrap">
+<table>
+<thead><tr><th>Information</th><th>How long we keep it</th></tr></thead>
+<tbody>
+<tr><td>Your Friendly profile, profile photo, username, birthday record, legal acceptance record and push tokens</td><td>Until you delete your account. A device's push token is also removed when you log out on that device, or when the notification service reports it is no longer valid.</td></tr>
+<tr><td>Direct messages</td><td>As long as at least one person in the conversation still has an account. There is no option in the app to delete a whole conversation. If you delete your account, your messages are blanked (see Section 10). When both people have deleted their accounts, the whole conversation is deleted.</td></tr>
+<tr><td>Contacts, notes, interactions and reminders</td><td>On your device until you delete them, delete your account, or remove the app. In the cloud only if you turned on backup, until you delete your backups or delete your account.</td></tr>
+<tr><td>Connections, follow requests and blocks</td><td>Until you or the other person removes them, or either of you deletes your account.</td></tr>
+<tr><td>Streak data</td><td>Until you delete your account.</td></tr>
+<tr><td>Reports (and the email notifications about them)</td><td>12 months after we close the report, even if an account involved is deleted, for safety, moderation and legal purposes. We may keep a report longer when needed to comply with the law, respond to a legal request, or protect a child or another person from serious harm.</td></tr>
+<tr><td>Subscription ownership record</td><td>Kept after account deletion so a subscription cannot be claimed by another account. It contains an account identifier, the product and Apple transaction identifiers, not your name or email.</td></tr>
+<tr><td>Server logs</td><td>Our service's logs record technical events (for example, that a report notification was sent or how many records an account deletion removed), not message text. Google keeps these logs for 30 days by default and then deletes them.</td></tr>
+<tr><td>Service-provider backups</td><td>Our providers may keep copies in their own backup systems for a limited time after data is deleted, until they are removed by their routine deletion cycles.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>10. What Deleting Your Account Removes</h2>
+<p>You can delete your account in the app at <strong>Profile &gt; Settings &gt; Advanced &gt; Delete account</strong>, or by emailing us. Deletion is permanent. When you delete your account:</p>
+<p><strong>We delete:</strong></p>
 <ul>
-<li>We keep your data while your account is active.</li>
-<li><strong>You can delete your account in the app</strong> (Profile &gt; Delete account). When you do, we delete your profile, username, profile photo, follow connections, streak data, blocked-account list, and cloud backups.</li>
-<li><strong>Messages:</strong> your messages in conversations are blanked and replaced with a "removed message" placeholder for the other person. If both people have deleted their accounts, the conversation is deleted.</li>
-<li><strong>Reports:</strong> reports you filed, or that name you, are kept for 12 months after we close them, for safety, moderation, and legal purposes, even after account deletion. We may keep a report longer when needed to comply with the law, to respond to a legal request, or to protect a child or another person from serious harm.</li>
-<li>Backups and logs kept by our service providers may persist for a limited time before being removed by routine cycles.</li>
-<li>Data stored only on your device can be deleted by removing the app.</li>
+<li>Your sign-in record in Firebase Authentication. If you used Sign in with Apple, we also revoke Friendly's access to your Apple ID.</li>
+<li>Your Friendly profile (name, display name, bio, discoverability and read-receipt settings, legal acceptance record and age-check record).</li>
+<li>Your private birthday record.</li>
+<li>Your username, so it is no longer linked to you.</li>
+<li>Your profile photo.</li>
+<li>Your push notification tokens (they are stored on your profile and deleted with it).</li>
+<li>Your follow connections and follow requests, in both directions.</li>
+<li>Your blocked-accounts list, and any blocks other people made that name you.</li>
+<li>Your streak data.</li>
+<li>Your cloud backups.</li>
+<li>The Friendly data on the device you delete from.</li>
 </ul>
+<p><strong>Messages:</strong> the text and reactions of messages you sent are erased and the other person sees a "removed message" placeholder. Your reactions to their messages, and any quote of your text in their replies, are also removed. The message records themselves (time sent and read status) stay in the conversation until the other person also deletes their account, at which point the whole conversation is deleted.</p>
+<p><strong>We keep:</strong></p>
+<ul>
+<li>Reports you filed or that name you, as described in Section 9.</li>
+<li>The subscription ownership record, as described in Section 9. Deleting your account does not cancel an Apple subscription; cancel it in your Apple ID settings.</li>
+<li>Copies in our providers' backups and logs until their routine cycles remove them.</li>
+<li>Anything we must keep to comply with the law.</li>
+</ul>
+<p><strong>What we cannot remove:</strong> information other users stored on their own devices, such as a contact card they made for you, notes they wrote, or a copy of your name, username or photo link saved when you connected.</p>
+<p>If our age check shows an account belongs to someone under 13, the app deletes the account in the same way.</p>
 
-<h2>10. Service Providers and Third-Party Services</h2>
+<h2>11. Service Providers and Third-Party Services</h2>
 <ul>
 <li><strong>Apple</strong> (Sign in with Apple; App Store purchases and subscriptions).</li>
-<li><strong>Google</strong> (Google Sign-In; Firebase Authentication, Cloud Firestore, Cloud Storage, Cloud Messaging, and Cloud Functions, used to run the app).</li>
-<li><strong>Resend</strong> (resend.com), used to email report notifications to our support address. Report notifications may include the report reason and any details you wrote.</li>
+<li><strong>Google</strong> (Google Sign-In; Firebase Authentication, Cloud Firestore, Cloud Storage, Cloud Messaging and Cloud Functions, used to run the app). Google's software in the app also collects the technical information described in Section 1.</li>
+<li><strong>Resend</strong> (resend.com), used to email report notifications to our support address. These emails include the report reason, the account identifiers of the person reporting and the person reported, related conversation or message identifiers, and any details you wrote.</li>
+<li><strong>Our email provider</strong> (Google Gmail), where support emails and report notifications are received.</li>
 </ul>
-<p>These providers process data only to provide their services to us, under their own terms and privacy policies (for Google, see policies.google.com/privacy; for Apple, see apple.com/legal/privacy).</p>
+<p>These providers process data only to provide their services to us, under their own terms and privacy policies (for Google, see policies.google.com/privacy; for Apple, see apple.com/legal/privacy; for Resend, see resend.com/legal/privacy-policy).</p>
 
-<h2>11. How We Share Information</h2>
-<p>We do not sell your personal data and we do not share it for cross-context behavioral advertising. We share information only: with the service providers above; with other users as described in this policy (for example, your profile if you are discoverable, your messages with the people you message); when required by law, legal process, or a government request; to protect the rights, safety, or security of users, the public, or Friendly (including reporting content that exploits children to the authorities); and in connection with a merger, sale, or transfer of the business, in which case we will tell you if your data becomes subject to a different privacy policy.</p>
+<h2>12. How We Share Information</h2>
+<p>We do not sell your personal information and we do not share it for cross-context behavioral advertising. We share information only: with the service providers above; with other users as described in this policy (for example, your profile with your connections or, if you are discoverable, with people who search for you, and your messages with the people you message); when required by law, legal process or a government request; to protect the rights, safety or security of users, the public or Friendly (including reporting content that exploits children to the authorities); and in connection with a merger, sale or transfer of the business, in which case we will tell you if your data becomes subject to a different privacy policy.</p>
 
-<h2>12. International Data Transfers</h2>
-<p>Friendly is operated from the United States, and our service providers may process data in the United States and other countries. By using Friendly you understand your information may be transferred to and processed in countries whose data protection laws differ from those where you live. Where required, we rely on appropriate safeguards such as our providers' standard contractual clauses.</p>
+<h2>13. International Data Transfers</h2>
+<p>Friendly is operated from the United States, and our service providers may process data in the United States and other countries. Your information may be transferred to and processed in countries whose data protection laws differ from those where you live. Where required, we rely on appropriate safeguards such as our providers' standard contractual clauses.</p>
 
-<h2>13. Security</h2>
-<p>We use reasonable technical and organizational measures to protect your information, including encrypted connections, account-based access controls, and security rules that limit who can read or write data. No system is perfectly secure, and we cannot guarantee absolute security. If a breach affecting your data occurs, we will notify you as required by law.</p>
+<h2>14. Security and Breach Notification</h2>
+<p>We use reasonable technical and organizational measures to protect your information, including encrypted connections, encryption at rest by our providers, account-based access controls, and security rules that limit who can read or write data. No system is perfectly secure, and we cannot guarantee absolute security.</p>
+<p>If we learn of a security breach that affects your personal information, we will notify you, and any regulator we are required to notify, without unreasonable delay and within the time required by applicable law, by email or in the app. The notice will explain what happened, what information was involved, what we are doing, and what you can do.</p>
 
-<h2>14. Children's Privacy</h2>
-<p>Friendly is not intended for anyone under 13, and you must be at least 13 to create an account. We ask for your birthday as part of account setup. If you indicate you are under 13, we do not create an account, and the app may remember this on that device only. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has an account, contact us and we will delete it.</p>
+<h2>15. Children's Privacy</h2>
+<p>Friendly is not intended for anyone under 13, and you must be at least 13 to create an account. We ask for your birthday before an account is created. If you indicate you are under 13, we do not create an account and the app remembers this on that device only, without storing the birthday. If an existing account's birthday shows the person is under 13, the app deletes the account and its data. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has an account, contact us and we will delete it.</p>
 
-<h2>15. Your Rights and Choices</h2>
+<h2>16. Your Rights and Choices</h2>
+<p><strong>In the app,</strong> you can edit your profile, turn discoverability on or off, turn cloud backup on or off and delete your backups, block users, turn read receipts on or off, manage notifications and device permissions, and delete your account.</p>
+<p><strong>All users</strong> can ask us to access, correct or delete their personal information, or for a copy of it, by contacting us (Section 22).</p>
+
+<h2>17. Notice to California Residents</h2>
+<p>This section applies to California residents under the California Consumer Privacy Act, as amended (CCPA). In the past 12 months we have collected the categories of personal information below. We collect them from you, from your device, from your sign-in provider (Apple or Google) and from Apple for purchases, for the purposes in Section 2, and keep them for the periods in Section 9. We disclose them for business purposes only to the service providers in Section 11.</p>
+<div class="wrap">
+<table>
+<thead><tr><th>Category (CCPA)</th><th>Examples in Friendly</th><th>Sold or shared?</th></tr></thead>
+<tbody>
+<tr><td>Identifiers</td><td>Name, email address, username, account identifier, push notification tokens, Apple transaction identifiers</td><td>No</td></tr>
+<tr><td>Personal records (Cal. Civ. Code &sect; 1798.80(e))</td><td>Name and email; phone number in your settings, if you turn on cloud backup</td><td>No</td></tr>
+<tr><td>Characteristics of protected classifications</td><td>Age (from your birthday)</td><td>No</td></tr>
+<tr><td>Commercial information</td><td>Friendly Pro subscription status and purchase records</td><td>No</td></tr>
+<tr><td>Internet or other electronic network activity</td><td>Connections, follow requests, blocks, streak data; app events in a diagnostics report you choose to email us; diagnostic and usage information collected by Google's software in the app (Section 1)</td><td>No</td></tr>
+<tr><td>Geolocation data</td><td>Approximate location (for example, from your IP address) that Google may collect when you sign in with Google. Friendly does not ask for your device's location.</td><td>No</td></tr>
+<tr><td>Audio, electronic or visual information</td><td>Your profile photo</td><td>No</td></tr>
+<tr><td>Sensitive personal information</td><td>Account sign-in details (email and password, held by Firebase Authentication); contents of your direct messages</td><td>No</td></tr>
+<tr><td>Personal information about other people you add</td><td>Contact names, phone numbers, emails, addresses, birthdays and notes, only if you turn on cloud backup</td><td>No</td></tr>
+</tbody>
+</table>
+</div>
+<p>We do not collect precise geolocation, biometric information, or inferences used to build a profile about you. We do not sell or share personal information (as those terms are defined in the CCPA), and we have no actual knowledge of selling or sharing the personal information of anyone under 16.</p>
+<p><strong>Right to limit use of sensitive personal information.</strong> We use sensitive personal information only to provide the app and the services you ask for, keep accounts secure and prevent abuse, as the CCPA permits. We do not use it to infer characteristics about you. Because of this, the right to limit does not apply, and we do not offer a "Limit the Use of My Sensitive Personal Information" link.</p>
+<p><strong>Your California rights.</strong> You have the right to know what personal information we collect, use and disclose; to get a copy of it; to correct it; to delete it; to opt out of the sale or sharing of personal information (we do neither); and to not be discriminated against for exercising these rights. You may use an authorized agent to make a request; we may ask the agent for proof that you authorized them and ask you to confirm your identity with us.</p>
+
+<h2>18. Notice to People in the EEA and UK</h2>
+<p>If you are in the European Economic Area or the United Kingdom, you also have the right to data portability, to restrict or object to our processing, to withdraw consent at any time, and to lodge a complaint with your local data protection authority (in the UK, the Information Commissioner's Office).</p>
+<p>Send EEA or UK privacy requests to <strong>andrewbates.friendly.dev@gmail.com</strong> with "Privacy request" in the subject. We have not appointed a representative in the European Union or the United Kingdom.</p>
+
+<h2>19. Making a Request, Response Times and Appeals</h2>
+<p>To make any privacy request, email <strong>andrewbates.friendly.dev@gmail.com</strong> from the email address on your account, if you can, and tell us what you are asking for. We may need to confirm your identity before acting on a request, and we will only use the information you give us for that purpose. You can also delete your account yourself in the app at any time.</p>
 <ul>
-<li><strong>In the app:</strong> edit your profile, turn discoverability on or off, manage cloud backup (including turning it off and deleting backups, in versions that include these controls), block users (in versions that include blocking), manage notifications and device permissions, and delete your account.</li>
-<li><strong>All users:</strong> you may ask us to access, correct, or delete your personal data by contacting us below.</li>
-<li><strong>EEA/UK residents:</strong> you may also have rights to data portability, to restrict or object to processing, to withdraw consent, and to lodge a complaint with your local data protection authority.</li>
-<li><strong>California residents:</strong> you have the right to know what personal information we collect, use, and disclose; to request deletion and correction; and to not be discriminated against for exercising these rights. We do not sell or share personal information as those terms are defined under California law. You may use an authorized agent to make a request.</li>
+<li><strong>California:</strong> we will confirm receipt within 10 business days and respond within 45 days. If we need more time, we may extend this once by up to another 45 days and will tell you why within the first 45 days.</li>
+<li><strong>EEA and UK:</strong> we will respond within one month. If a request is complex or you have made several, we may extend this by up to two more months and will tell you why within the first month.</li>
+<li><strong>Elsewhere:</strong> we will respond within the time required by the law that applies to you, and otherwise within 45 days.</li>
 </ul>
-<p>We will respond to verified requests within the time required by applicable law. We may need to verify your identity first.</p>
+<p><strong>Appeals.</strong> If we decline your request, in whole or in part, we will explain why. You can appeal by replying to our answer, or emailing us, with "Privacy appeal" in the subject within 60 days. We will review the decision and tell you the result, with our reasons, within 45 days. If you are not satisfied with the result, you can contact your state attorney general or, in the EEA or UK, your data protection authority.</p>
 
-<h2>16. Changes to This Policy</h2>
+<h2>20. Accessibility</h2>
+<p>We want Friendly and this website to be usable by everyone. The app supports larger text sizes and works with screen readers such as VoiceOver, and we keep improving it. If you have trouble using any part of Friendly or reading this policy, or you would like this policy in another format, email <strong>andrewbates.friendly.dev@gmail.com</strong> and we will help.</p>
+
+<h2>21. Changes to This Policy</h2>
 <p>We may update this policy from time to time. We will post the new version here with a new effective date. For material changes, we will notify you in the app and ask you to review and accept the updated policy.</p>
 
-<h2>17. Contact Us</h2>
-<p>Friendly Support<br>Andrew Bates, doing business as Friendly<br>andrewbates.friendly.dev@gmail.com</p>
+<h2>22. Contact Us</h2>
+<p>Friendly Support<br>
+Andrew Bates, doing business as Friendly<br>
+andrewbates.friendly.dev@gmail.com</p>
 
 <hr>
-<p><a href="https://andrewbates1019-beep.github.io/friendly-privacy/terms.html">Terms of Use</a> &nbsp;|&nbsp; <a href="https://andrewbates1019-beep.github.io/friendly-privacy/">Privacy Policy</a> &nbsp;|&nbsp; <a href="https://andrewbates1019-beep.github.io/friendly-privacy/community-rules.html">Community Rules</a></p>
+<p><a href="https://andrewbates1019-beep.github.io/friendly-privacy/terms.html">Terms of Use</a> &nbsp;|&nbsp; <a href="https://andrewbates1019-beep.github.io/friendly-privacy/">Privacy Policy</a> &nbsp;|&nbsp; <a href="https://andrewbates1019-beep.github.io/friendly-privacy/community-rules.html">Community Rules</a> &nbsp;|&nbsp; <a href="https://andrewbates1019-beep.github.io/friendly-privacy/dmca.html">Copyright and DMCA</a></p>
+<p>&copy; 2026 Andrew Bates, doing business as Friendly</p>
 </body>
 </html>
